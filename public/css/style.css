@@ -1,0 +1,405 @@
+body{
+    background-color:#EAC926;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    
+}
+main{
+    width: 90%;
+    margin: 20px auto;
+  
+}
+h3{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight:bolder
+   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    
+    margin-top: 5px;
+}
+.mercado{
+    box-shadow: none;
+    width: 45%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.title{
+    font-size: 24px;
+}
+.price{
+    font-size: 18px;
+    flex-grow: 0.3;
+}
+.off{
+    font-size: 16px;
+    color:  #39b54a;
+    flex-grow: 0.7;
+}
+.description{
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+.icon-menu{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 2.5em;
+    font-size: 1.5em;
+}
+.icon-menu i{
+    width:100%;
+    padding: 6px 5px;
+     text-align: center;
+    color:white;
+    border-radius: 20%;
+    font-weight: 700;
+    font-size: 2em;
+    background-color: #03264C;
+}
+.barra{
+    align-items: center;
+    background-color: #ebebeb;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+    
+}
+.logo-bus{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.second-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hand{
+    font-size: 1em;
+    padding: 5px;
+}
+.hand i{
+    width: 100%;
+    text-align: center;
+    
+}
+.icon-login i{
+    font-size: 1.5em;
+    display: inline-block;
+}
+.icon-login li{
+    display: inline-block;
+}
+
+.Cuotas{
+    padding: 15px 0;
+}
+.list{
+    margin-left: 0px; 
+}
+.list ul{
+    text-align: left;
+    padding-inline-start: 0;
+}
+
+.list li, a{
+    list-style: none;
+   text-decoration: none;
+   
+}
+
+.menu-pro{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 1%;
+   
+}
+
+.icon-delivery{
+  position: relative;
+  border-top: solid 2px #ebebeb;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+.icon-delivery i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.footer{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px #999;
+    border-radius: 0%;
+    
+}
+
+.footer *{
+    text-align: center;
+    margin: 15px;
+    margin-top: 10px;
+}
+.icon-footer{
+    margin: 0;
+    font-size: 3.5em;
+    color: #1259c3;
+}
+.formulario{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: .5em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.formulario *{
+    margin: 5px;
+    padding-top: 5px;
+}
+.formulario input{
+    padding: 10px;
+}
+.formulario h3{
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-weight: 300;
+}
+.formulario textarea{
+    border: none;
+    padding: 10px;
+}
+.foto-usuario{
+    font-size: 1.5em;
+}
+.formulario p{
+    font-size: 1.5em;
+}
+.seccion-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: #1259c3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 500;
+    border-radius: 3px;
+
+}
+.box{
+    width: 45%;
+    margin:5px
+  }
+  .busqueda input#search{
+    width: 100%;
+    height: 50px;
+    color: #2b303b;
+    font-size: 10pt;
+    float: left;
+    background-color: #fff;
+    padding-left: 15px;
+    border-radius: 5px;
+
+  }
+  
+  .busqueda button.icon{
+   
+    border-radius: 5px;
+    border: none;
+    background: white;
+    height: 50px;
+    width: 50px;
+    color: #4f5b66;
+    font-size: 10px;
+    margin-left: -50px;
+    outline: none;
+
+   
+  }
+ 
+ 
+.login *{
+    width: 100%;
+    margin-bottom: 40px;
+}
+input:required:valid {
+    border: none;
+  border-bottom: 2px solid green;
+  }
+  input:invalid {
+    border: none;
+    border-bottom: 2px solid red;
+  }
+  input:optional {
+    border: none;
+
+  }
+  input[type=text]:focus {
+    border: 1px solid #555;
+  }
+ 
+  .menu-pro:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+    .button:hover{
+        background-color: #0022AA;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transition-duration: 600ms;
+    }
+    .icon-footer:hover{
+        color: rgb(55, 0, 128);
+        transform: translateY(-5px);
+        transition-duration: 600ms;
+        
+    }
+    .menu-pro:hover .icon-delivery i{
+        animation-name: bus;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+   
+   @keyframes bus {
+    0%{transform: rotate(0deg)}
+    50%{transform: rotate(180deg)}   
+    100%{transform: rotate(360deg)}
+       
+   }
+    
+   
+@media(max-width:361px){
+    
+    .description{
+       display: none;
+    }
+    .menu-pro:hover{
+        transform: translateY(-2px);
+        transition-duration: 600ms;
+     
+        }
+    .icon-delivery:hover .description ,.off:hover{
+        display: block;
+    }
+    .list{
+        display:none;
+    }
+    .lupa{
+        display: none;
+    }
+
+}
+
+
+@media(min-width:361px){
+   .basado, .ofertas{
+       display:flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: flex-start;
+   }
+   .menu-pro{
+       width: 45%;
+   }
+   .menu-pro:hover{
+    transform: translateY(-5px);
+    transition-duration: 600ms;
+ 
+    }
+   .icon-menu{
+       display: none;
+   }
+   .box{
+       width: 30%;
+   }
+   .mercado{
+       width: 30%;
+   }
+   .second-menu{
+       width: 30%;
+   }
+   .logo-bus{
+       justify-content: space-between;
+   }
+   .list{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+   }
+   .list ul{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 10px;
+   
+   }
+   
+   
+}
+
+@media(min-width:769px){
+    .menu-pro{
+        width: 22%;
+        padding: 0;
+        
+    }
+    .menu-pro:hover{
+        transform: translateY(-20px);
+        transition-duration: 600ms;
+    }
+    .second-menu{
+        width: 35%;
+    }
+    .formulario{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer section{
+        width: 29%;
+    }
+}
