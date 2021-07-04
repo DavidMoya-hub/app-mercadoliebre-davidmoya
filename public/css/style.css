@@ -373,6 +373,11 @@ input:required:valid {
     margin: 10px;
    
    }
+   .formulario{
+       width: 65%;
+       margin: 0 auto;
+       
+   }
    
    
 }
